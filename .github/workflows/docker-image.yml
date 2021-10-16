@@ -44,4 +44,4 @@ jobs:
       with:
         name: hello-${{ steps.slug.outputs.sha8 }}-${{ steps.docker_tag.outputs.sha8 }}
         path: |
-          DaedalusX64/EBOOT.PBP
+          ./DaedalusX64/EBOOT.PBP
